@@ -19,6 +19,7 @@ type todoRepository struct {
 }
 
 func NewTodoRepository() TodoRepository {
+	//ここの & ってなんだっけ？ TodoRepositoryを使う時にここ経由にすると毎回新しいインスタンス作られていい感じになんだと思う
 	return &todoRepository{}
 }
 
