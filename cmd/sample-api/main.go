@@ -3,8 +3,8 @@ package main
 import (
 	"net/http"
 
-	"local.packages/controller"
-	"local.packages/model/repository"
+	"github.com/MatsumaruTsuyoshi/sample_todo_api/controller"
+	"github.com/MatsumaruTsuyoshi/sample_todo_api/model/repository"
 )
 
 var tr = repository.NewTodoRepository()

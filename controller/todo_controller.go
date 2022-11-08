@@ -6,9 +6,9 @@ import (
 	"path"
 	"strconv"
 
-	"local.packages/controller/dto"
-	"local.packages/model/entity"
-	"local.packages/model/repository"
+	"github.com/MatsumaruTsuyoshi/sample_todo_api/controller/dto"
+	"github.com/MatsumaruTsuyoshi/sample_todo_api/model/entity"
+	"github.com/MatsumaruTsuyoshi/sample_todo_api/model/repository"
 )
 
 type TodoController interface {
